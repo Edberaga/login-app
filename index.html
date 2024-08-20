@@ -10,6 +10,25 @@
 </head>
 
 <body>
+  <main>
+    <h1>Login App</h1>
+    <img src="authentication.png" alt="Login" width="300px"/>
+    <form id="loginForm">
+      <div>
+        <label for="username"> Username: </label>
+        <input type="text" id="username" />
+      </div>
+
+      <div>
+        <label for="password"> Password: </label>
+        <input type="password" id="password" />
+      </div>
+
+      <button type="button" onclick="validate()">Login</button>
+    </form>
+
+    <p id="result"></p>
+  </main>
   <script src="script.js"></script>
 </body>
 
