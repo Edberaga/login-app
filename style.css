@@ -2,3 +2,34 @@ html {
   height: 100%;
   width: 100%;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginForm div {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#loginForm input {
+  padding:  10px;
+  border-radius: 5px;
+}
+
+#loginForm button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 20px;
+  width: 100%;
+  background-color: #00aee0;
+  color: #fff;
+  cursor: pointer;
+}
