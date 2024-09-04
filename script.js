@@ -1,13 +1,13 @@
-const username = document.getElementById('username');
+const username = document.getElementById('username').value.toLowerCase();
 const password = document.getElementById('password');
 const result = document.getElementById('result');
 
 function validate () {
+    console.log(username);
     if(username.value === "" || password.value === "") {
         result.innerHTML = "Please fill in both fields.";
         return
     }
-    
     if(username.value === "edbert" && password.value === "12345") {
         result.innerHTML = "Welcome, Edbert!";
         return
